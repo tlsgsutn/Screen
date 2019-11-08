@@ -23,10 +23,10 @@
 	}
 </script>
 <body>
-<form name="liginForm"  method="post">
+<form name="liginForm" action="certification.jsp" method="post">
    <p>아 이 디 : <input type="text" name="id">
    <p>비밀번호 : <input type="password" name="password">
-   <p> <input type="button" value="전송" onclick="checkLogin()">
+   <p> <input type="submit" value="전송" onclick="checkLogin()">
 </form>
 </body>
 </html>
